@@ -43,5 +43,16 @@ body{
  li:hover {
      background-color: #b6e4cf;
  }
+ .delete-button {
+    float: right;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
 
- 
+.delete-button:hover {
+    background-color: #c82333;
+}
