@@ -56,3 +56,42 @@ body{
 .delete-button:hover {
     background-color: #c82333;
 }
+@media screen and (max-width: 480px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+    }
+    #task-input{
+        width:25vw;
+    }
+    .add-btn{
+        display: flex;
+        margin: 30px auto 0px auto;
+        width:24vw ;
+    }
+  }
+  @media screen and (max-width: 910px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 55vw;
+    }
+    #task-input{
+        width:50vw;
+    }
+    .add-btn{
+        display: flex;
+        margin: 30px auto 0px auto;
+    }
+  }
+  @media screen and (max-width: 1030px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+    .add-btn{
+        display: flex;
+        margin: 30px auto 0px auto;
+    }
+  }
